@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T13:34:15.535Z" agent="5.0 (Windows)" etag="yRgcqs_V0rQdF4bVe-Zg" version="17.4.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-09T15:59:13.639Z" agent="5.0 (Windows)" etag="_n2Q3_LyLPVai5khc7vl" version="17.4.1" type="github" pages="4">
   <diagram id="5Rl2E7YkQ2Qzgk_aF65r" name="BigData">
     <mxGraphModel dx="2272" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -385,8 +385,14 @@
         <mxCell id="pzezBO2cyAJBQJeINmcR-15" value="Graph-Based Store" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-400" y="270" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="76pWbEW9vK8MN_X_Sf-x-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;strokeWidth=2;elbow=vertical;" edge="1" parent="1" source="pzezBO2cyAJBQJeINmcR-16" target="76pWbEW9vK8MN_X_Sf-x-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pzezBO2cyAJBQJeINmcR-16" value="Cassandra" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="76pWbEW9vK8MN_X_Sf-x-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;strokeWidth=2;elbow=vertical;" edge="1" parent="1" source="pzezBO2cyAJBQJeINmcR-17" target="76pWbEW9vK8MN_X_Sf-x-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pzezBO2cyAJBQJeINmcR-17" value="MongoDB" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="230" width="120" height="40" as="geometry" />
@@ -406,20 +412,23 @@
         <mxCell id="76pWbEW9vK8MN_X_Sf-x-3" value="CAP Theorem" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-750" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="76pWbEW9vK8MN_X_Sf-x-6" value="&lt;b&gt;Consistency&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="575" width="160" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="76pWbEW9vK8MN_X_Sf-x-7" value="&lt;b&gt;Availability&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="480" width="170" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="76pWbEW9vK8MN_X_Sf-x-8" value="&lt;b&gt;Partition Tolerance&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-540" y="570" width="165" height="165" as="geometry" />
-        </mxCell>
-        <mxCell id="76pWbEW9vK8MN_X_Sf-x-9" value="&lt;h1&gt;CAP Theorem&lt;br&gt;&lt;/h1&gt;CAP gồm 3 factors: &lt;strong&gt;consistency&lt;/strong&gt;, &lt;strong&gt;availability&lt;/strong&gt;, và &lt;strong&gt;partition tolerance&lt;/strong&gt;. (Tính nhất quán, tính khả dụng và dung sai phân vùng)." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="350" width="190" height="120" as="geometry" />
+        <mxCell id="76pWbEW9vK8MN_X_Sf-x-9" value="&lt;h1&gt;CAP Theorem&lt;br&gt;&lt;/h1&gt;Định lý CAP nói rằng một hệ thống phân tán (&lt;em&gt;distributed system&lt;/em&gt;) không thể thỏa mãn cả ba yếu tố (3 factors): &lt;strong&gt;consistency&lt;/strong&gt;, &lt;strong&gt;availability&lt;/strong&gt;, và &lt;strong&gt;partition tolerance&lt;/strong&gt;. (Tính nhất quán, tính khả dụng và dung sai phân vùng)." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="350" width="590" height="90" as="geometry" />
         </mxCell>
         <mxCell id="76pWbEW9vK8MN_X_Sf-x-10" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Consistency: &lt;/b&gt;tại cùng một thời điểm, dữ liệu mà tất cả các máy khách nhìn thấy phải là giống nhau, bất kể nó kết nối với node nào&lt;b&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Availability: &lt;/b&gt;bất kỳ máy khách nào đưa ra yêu cầu dữ liệu đều nhận được phản hồi, ngay cả khi một hoặc nhiều node bị ngừng hoạt động&lt;b&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Partition Tolerance: &lt;/b&gt;cluster phải duy trì được trạng thái hoạt động dù cho có bất kỳ sự cố giao tiếp nào giữa các node trong hệ thống&lt;b&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="360" width="540" height="120" as="geometry" />
+          <mxGeometry x="-830" y="430" width="620" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="76pWbEW9vK8MN_X_Sf-x-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://edwardthienhoang.files.wordpress.com/2020/05/9-1.png?w=700;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="740" width="520" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="76pWbEW9vK8MN_X_Sf-x-15" value="Chúng ta không thể thiết kế một hệ thống bao gồm cả ba tính CAP, bởi vì đảm bảo tính C (consistency) tất cả các cập nhật dữ liệu phải được thực hiện trên các node cùng một thời điểm. Nhưng nếu đường kết nối (mạng) giữa các node không được đảm bảo dẫn đến việc các node sẽ không được update dữ liệu cùng một thời điểm, điều này dẫn tới việc một vài node dữ liệu sẽ bị out-of-date do chưa được cập nhật dữ liệu từ đó vi phạm tính C (consistency). Và để đảm bảo đối phó với điều này ta sẽ ngừng phục vụ nhữg node bị out-of-date đó cho tới khi nó được update dữ liệu đầy đủ,nhưng việc này lại vi phạm tính A (availability) của hệ thống. &lt;br&gt;&lt;br&gt;&lt;b&gt;Thông thường, người ta thường đánh đổi yếu tố C để lấy hai yếu tố A và P. Khi đó họ sẽ thay thế Consistency thành eventually consistency (tính nhất quán có độ trễ)&lt;/b&gt;, làm như thế hệ thống sẽ có hiệu năng tốt hơn " style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="570" width="590" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="76pWbEW9vK8MN_X_Sf-x-18" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Cassandra là một cơ sở dữ liệu AP với &lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;kiến trúc masterless (vô chủ). Bởi vì Cassandra không có node chính, tất cả các node phải có sẵn liên tục. Tuy nhiên, Cassandra cung cấp tính nhất quán cuối cùng bằng cách cho phép máy khách ghi vào bất kỳ node nào vào bất kỳ lúc nào và điều chỉnh các conflict càng nhanh càng tốt&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry y="120" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="76pWbEW9vK8MN_X_Sf-x-19" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;MongoDB là một cơ sở dữ liệu CP với &lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;kiến trúc single-master (&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;một node chính tiếp nhận tất cả các thao tác ghi). Khi node chính không khả dụng, node phụ có nhật ký hoạt động gần đây nhất sẽ được chọn làm node chính mới. Khi tất cả các node phụ khác bắt kịp với node chính mới, cụm sẽ khả dụng trở lại. Vì các máy khách không thể thực hiện bất kỳ yêu cầu ghi nào trong khoảng thời gian này, nên dữ liệu vẫn nhất quán trên toàn bộ mạng.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry y="290" width="300" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
